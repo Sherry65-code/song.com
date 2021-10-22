@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta http-equiv="refresh" content="2; url='songs.html'" /><head>
+  <style>
+    .loader{
+background-color: rgba(240, 248, 255, 0);
+position: absolute;
+padding: 20px 20px;
+border-left: rgb(255, 124, 135) 8px solid;
+border-right: rgb(255, 124, 135) 8px solid;
+border-top: rgb(255, 124, 135) 8px solid;
+border-bottom: rgba(255, 124, 135, 0) 8px solid;
+border-radius: 50%;
+animation: 0.5s infinite load;
+animation-timing-function: cubic-bezier(1,1,1,1);
+left: 48%;
+top: 48%;
+    }
+    @keyframes load {
+      100%{transform: rotate(360deg);}
+    }
+    *{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 600;
+      font-size: large;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Songs</title>
+</head>
+<body>
+  <div class="loader"></div><br><br>
+  Connecting to Server...
+  <br>
+  Songs will be updated on this Webpage only.
+</body>
+</html>
